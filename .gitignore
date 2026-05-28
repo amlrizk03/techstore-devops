@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.pyc
+*.pyo
+*.log
+.env
+.DS_Store
+Thumbs.db
+CALISMA_PLANI.md
+RAPOR_TASLAGI.md
