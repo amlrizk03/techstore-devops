@@ -52,7 +52,7 @@ services:
 
   # ── SonarQube ──────────────────────────────────────────
   sonarqube:
-    image: sonarqube:10-community
+    image: sonarqube:lts-community
     container_name: techstore-sonarqube
     ports:
       - "9000:9000"
