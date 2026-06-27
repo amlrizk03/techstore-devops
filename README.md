@@ -1,4 +1,4 @@
-# 🛒 TechStore — Uygulamalı DevOps Projesi
+# TechStore — Uygulamalı DevOps Projesi
 
 Gerçekçi bir e-ticaret uygulaması üzerinde tam DevOps pipeline'ı.
 
@@ -25,22 +25,9 @@ techstore/
     └── prometheus.yml        # Prometheus scrape yapılandırması
 ```
 
-## Ürün Kataloğu
-
-| Ürün | Kategori | Fiyat |
-|------|----------|-------|
-| Samsung Galaxy S24 Ultra | Telefon | 54,999 TL |
-| Apple MacBook Pro 16" M3 Pro | Laptop | 89,999 TL |
-| Sony WH-1000XM5 | Kulaklık | 12,499 TL |
-| LG OLED C3 55" | Televizyon | 39,999 TL |
-| iPad Pro 12.9" M2 | Tablet | 34,999 TL |
-| Logitech MX Master 3S | Aksesuar | 2,499 TL |
-| DJI Mini 4 Pro | Drone | 28,999 TL |
-| Corsair K100 RGB | Aksesuar | 4,299 TL |
 
 ---
 
-## 🚀 Hızlı Başlangıç
 
 ### Ön Gereksinimler
 
@@ -90,7 +77,7 @@ Servisler:
 
 ---
 
-## 🧪 Testler
+## Testler
 
 ### Birim ve Entegrasyon Testleri
 
@@ -119,7 +106,7 @@ pytest tests/test_ui.py -v
 
 ---
 
-## 🔄 CI/CD Pipeline (Jenkins)
+## CI/CD Pipeline (Jenkins)
 
 ### Jenkins Kurulum
 
@@ -154,7 +141,7 @@ Checkout → Setup → Unit Tests → SonarQube → Quality Gate
 
 ---
 
-## 📊 İzleme (Prometheus + Grafana)
+## İzleme (Prometheus + Grafana)
 
 ### Mevcut Metrikler
 
@@ -183,7 +170,7 @@ rate(http_requests_total{status=~"5.."}[5m]) / rate(http_requests_total[5m])
 
 ---
 
-## 📱 API Referansı
+## API Referansı
 
 | Method | Endpoint | Açıklama |
 |--------|----------|----------|
@@ -201,7 +188,7 @@ rate(http_requests_total{status=~"5.."}[5m]) / rate(http_requests_total[5m])
 
 ---
 
-## 🎯 Kalite Metrikleri
+## Kalite Metrikleri
 
 | Metrik | Hedef |
 |--------|-------|
